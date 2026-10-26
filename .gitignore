@@ -1,0 +1,36 @@
+# Build outputs and downloaded runtimes
+.build/
+release/
+node_modules/
+*.app/
+*.dmg
+*.zip
+*.exe
+*.msi
+*.7z
+*.part
+__pycache__/
+*.pyc
+
+# Personal question banks, application records and test profiles
+imports/
+state.json
+state.backup.json
+*-test-profile/
+quiz-electron-smoke-*/
+.env
+.env.*
+*.log
+
+# Machine metadata and private development notes
+.DS_Store
+._*
+.idea/
+.vscode/
+.omc/
+.codex/
+.agents/
+AGENTS.md
+docs/superpowers/
+docs/desktop-verification.md
+docs/windows-verification.md

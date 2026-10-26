@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>自测本 · Markdown 选择题</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="core.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="试卷与题目导航">
+      <button class="brand" data-action="home" aria-label="自测本首页"><span class="brand-mark" aria-hidden="true">本</span><span>自测本<small>Markdown 练习空间</small></span></button>
+      <div class="sidebar-heading"><h2>我的试卷</h2><span id="paper-count">0</span></div>
+      <nav id="paper-list" class="paper-list" aria-label="试卷列表"></nav>
+      <button class="sidebar-import" data-action="import"><span aria-hidden="true">＋</span> 导入试卷</button>
+      <section id="question-navigation" class="question-navigation" aria-label="题目导航"></section>
+      <div class="sidebar-footer"><span class="local-dot" aria-hidden="true"></span>仅保存在此浏览器<small>你的试卷和作答不会上传</small></div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar"><div class="breadcrumbs"><button data-action="home">自测本</button><span aria-hidden="true">/</span><span id="breadcrumb-current">开始练习</span></div><button class="button button-small" data-action="import"><span aria-hidden="true">＋</span> 导入 Markdown</button></header>
+      <div id="storage-warning" class="notice notice-error storage-warning" role="alert" hidden></div>
+      <div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div>
+      <main id="main" class="document" tabindex="-1"></main>
+      <footer class="document-footer">自测本 <span aria-hidden="true">/</span> 专注练习，留住每一次思考。</footer>
+    </div>
+  </div>
+  <input id="file-input" type="file" accept=".md,.markdown,.txt,text/markdown,text/plain" hidden>
+  <dialog id="confirm-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description"><form method="dialog"><h2 id="dialog-title"></h2><p id="dialog-description"></p><div class="dialog-actions"><button class="button" value="cancel" autofocus>取消</button><button id="dialog-confirm" class="button button-primary" value="confirm">确认</button></div></form></dialog>
+  <noscript><p class="notice notice-error">请启用浏览器 JavaScript 后打开自测本。</p></noscript>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "tool": "NSIS",
+  "nsisVersion": "3.12",
+  "bundleRelease": "nsis@2.0.2",
+  "archive": "nsis-bundle-3.12.tar.gz",
+  "url": "https://github.com/electron-userland/electron-builder-binaries/releases/download/nsis%402.0.2/nsis-bundle-3.12.tar.gz",
+  "releaseApi": "https://api.github.com/repos/electron-userland/electron-builder-binaries/releases/tags/nsis%402.0.2",
+  "sha256": "83d80ee578cb19008b2a99e4fccfb5e7c023cc9bb791eb38f6048fccc875f62c",
+  "checksumSource": "GitHub release asset digest",
+  "source": "https://github.com/electron-userland/electron-builder-binaries/tree/nsis%402.0.2/packages/nsis"
+}

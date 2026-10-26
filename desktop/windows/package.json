@@ -1,0 +1,9 @@
+{
+  "name": "quiz-notebook",
+  "productName": "自测本",
+  "version": "1.0.0",
+  "author": "Chi-cha-zly",
+  "private": true,
+  "description": "离线 Markdown 选择题自测本",
+  "main": "main.cjs"
+}
